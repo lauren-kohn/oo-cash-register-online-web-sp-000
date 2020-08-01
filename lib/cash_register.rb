@@ -32,6 +32,8 @@ class CashRegister
     end
   end 
   
+  @@items.clear
+  
   def items
     @@items
   end 
