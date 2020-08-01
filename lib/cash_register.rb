@@ -33,7 +33,6 @@ class CashRegister
   end 
   
   def items
-    @@items.clear
     @@items
   end 
   
