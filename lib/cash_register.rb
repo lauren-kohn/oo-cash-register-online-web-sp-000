@@ -21,6 +21,7 @@ class CashRegister
       counter += 1 
     end
     @last_transaction = price * quantity
+    binding.pry
     @total = @total + price * quantity
   end 
   
