@@ -43,6 +43,7 @@ class CashRegister
     if @items.length >= 1
       new_total = @total - @last_transaction
       new_total
+      binding.pry
     else
       0.0 
     end
