@@ -36,7 +36,7 @@ class CashRegister
   
   def void_last_transaction
     if @items.length >= 1
-      new_total = @total - @@items.last
+      new_total = @total - @items.last
       new_total
     else
       0.0 
