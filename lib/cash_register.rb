@@ -31,7 +31,7 @@ class CashRegister
     end
   end 
   
-  def items(item)
+  def items
     @@items << item
   end 
   
