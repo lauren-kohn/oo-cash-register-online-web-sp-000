@@ -40,10 +40,9 @@ class CashRegister
   end 
   
   def void_last_transaction
-    if @items.length >= 1
+    #if @items.length >= 1
       @total = @total - @last_transaction
-      #@total
-    end
+    #end
   end
   
 end 
