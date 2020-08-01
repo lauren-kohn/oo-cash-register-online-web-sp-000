@@ -31,8 +31,8 @@ class CashRegister
     end
   end 
   
-  def items
-    @@items
+  def items(item)
+    @@items << item
   end 
   
   def void_last_transaction
